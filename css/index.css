@@ -229,10 +229,8 @@ a:hover{
 .checkbox:checked+span::before{
     border-color: #ff7e00;
     background-color: #ff7e00;
-    background-image: url("../src/png/Vector 12 (Stroke).png");
+    background-image: url("");
 }
-
-
 
 /*Radiobutton*/
 .radiobutton{
@@ -339,7 +337,7 @@ header{
     left: 20px;
     top: 20px;
 
-    z-index: 4;
+    z-index: 10;
 }
 
 .header_top{
@@ -1050,8 +1048,13 @@ dt{
 
 .popular>div{
     display: flex;
-    justify-content: center;
-    align-content: flex-start;
+    flex-direction: row;
+}
+
+.popular>.cards{
+    display: grid;
+    grid-template-columns: 392px 392px 392px;
+    gap: 24px;
 }
 
 /*Wheels*/
@@ -1076,4 +1079,131 @@ dt{
 .about{
     grid-template-columns: 600px 592px;
     gap: 32px;
+}
+
+/*Cards*/
+.card_1{
+    box-sizing: border-box;
+    width: 392px;
+    height: 392px;
+
+    position: absolute;
+
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 2px;
+}
+
+.card_1:hover{
+    position: absolute;
+    /* hover */
+
+    background: #FFFFFF;
+    border: 1px solid #FF7E00;
+    border-radius: 2px;
+    filter: drop-shadow(0px 2px 4px rgba(172, 85, 0, 0.08)) drop-shadow(0px 8px 32px rgba(255, 126, 0, 0.16));
+}
+
+.card_1>.card_1_img{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 30.61%;
+    z-index: 1;
+
+    background: url("../src/png/card_image2.png");
+}
+
+.card_1_tongue{
+    position: absolute;
+    left: 0.26%;
+    right: 0.26%;
+    top: 44.8%;
+    bottom: -8.33%;
+    z-index: 2;
+
+    border-radius: 8px;
+
+    background-image: url("../src/svg/card_tongue.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.card_1_title{
+    position: absolute;
+    left: 8.16%;
+    right: 8.16%;
+    top: 67.35%;
+    bottom: 24.49%;
+
+    z-index: 3;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+
+    color: #1A1E29;
+}
+
+.card_1_time{
+    z-index: 3;
+    position: absolute;
+    left: 8.16%;
+    right: 87.76%;
+    top: 79.59%;
+    bottom: 16.33%;
+}
+
+.card_1_price{
+    z-index: 3;
+    position: absolute;
+    left: 8.42%;
+    right: 87.5%;
+    top: 87.76%;
+    bottom: 8.16%;
+}
+
+.time_text{
+    position: absolute;
+    left: 14.29%;
+    right: 8.42%;
+    top: 79.59%;
+    bottom: 16.33%;
+
+    z-index: 3;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+
+    color: #6A6A6A;
+}
+
+.price_text{
+    position: absolute;
+    left: 14.54%;
+    right: 8.16%;
+    top: 87.76%;
+    bottom: 8.16%;
+
+    z-index: 3;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+
+    color: #6A6A6A;
 }
