@@ -10,6 +10,8 @@ body{
     height: 4482px;
     left: 40px;
     background: #FFFFFF;
+
+    margin: 0 auto;
 }
 
 main{
@@ -332,10 +334,9 @@ input:checked + .slider:before {
 /*Header*/
 header{
     position: fixed;
-    width: 1340px;
+    align-self: center;
+    width: 1280px;
     height: 96px;
-    left: 20px;
-    top: 20px;
 
     z-index: 10;
 }
@@ -727,7 +728,7 @@ footer{
     color: #ff7e00;
     font-family: 'IBM Plex Sans', sans-serif;
     font-style: normal;
-    font-weight: 180px;
+    font-weight: 500px;
     font-size: 14px;
     line-height: 16px;
 
@@ -1046,21 +1047,26 @@ dt{
     justify-content: center;
 }
 
-.popular>div{
+.popular>.pop_btn{
     display: flex;
     flex-direction: row;
 }
 
 .popular>.cards{
-    display: grid;
     grid-template-columns: 392px 392px 392px;
     gap: 24px;
 }
 
+/*Cards*/
+.cards{
+    flex: none;
+    display: grid;
+}
+
 /*Wheels*/
 .wheels{
-    grid-template-rows: 48px 640px 40px;
-    gap: 32px;
+    grid-template-rows: 48px 47px 568px 40px;
+    gap: 24px;
 }
 
 /*Disks*/
