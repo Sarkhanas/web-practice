@@ -1,0 +1,39 @@
+@media (max-width: 800px) {
+    /*Main settings*/
+    header{
+        width: 768px;
+    }
+
+    body{
+        width: 768px;
+        height: 4956px;
+    }
+
+    footer{
+        width: 768px;
+        height: 447px;
+    }
+
+    /*Header*/
+    .component1{
+        display: none;
+    }
+
+    .component3{
+        display: none;
+    }
+
+    .component4{
+        display: none;
+    }
+
+    .imn_2{
+        display: none;
+    }
+
+    /*Ad*/
+    .ad{
+        width: 768px;
+        height: 384px;
+    }
+}
