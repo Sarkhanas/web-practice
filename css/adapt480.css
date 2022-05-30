@@ -1,4 +1,323 @@
 @media (max-width: 480px) {
+    /*Main settings*/
     body{
+        width: 320px;
+        height: 4796px;
+    }
+
+    header{
+        width: 320px;
+        background: url("../src/svg/header_480.svg") center center no-repeat;
+    }
+
+    main{
+        width: 288px;
+        top: 17%;
+        left: 4%;
+    }
+
+    footer{
+        width: 320px;
+        height: 447px;
+    }
+
+    /*Header*/
+    .header_top{
+        background: none;
+    }
+
+    .header_bottom{
+        background: none;
+    }
+
+    .logo{
+        width: 32px;
+        height: 32px;
+
+        left: 45%;
+        right: 45%;
+        top: 35.29%;
+        bottom: 28.57%;
+
+        background: url("../src/svg/Logo.svg");
+    }
+
+    .left_menu{
+        left: 30%;
+        right: 76.56%;
+        top: 6.57%;
+        bottom: 42.86%;
+    }
+
+    .imn_1,.imn_3{
+        top: 22px;
+    }
+
+    /*Ad*/
+    .ad{
+        width: 320px;
+        height: 312px;
+        top: 68px;
+        background: url("../src/png/Ad_480.png") center center no-repeat;
+    }
+
+    .ad_text{
+        width: 280px;
+
+        left: 6.25%;
+        right: 6.25%;
+        top: 56.41%;
+        bottom: 23.08%;
+    }
+
+    .ad_text_1{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        width: 155px;
+        height: 60px;
+        hyphens: auto;
+    }
+
+    .ad_text_2{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        top: 50%;
+        left: 132px;
+        width: 124px;
+        height: 28px;
+    }
+
+    .ad_btn{
+        left: 5.31%;
+        right: 56.25%;
+        top: 82.05%;
+        bottom: 5.13%;
+    }
+
+    /*Selection*/
+    .selection{
+        width: 289px;
+        height: 504px;
+    }
+
+    .selection_text{
+        width: 235px;
+        left: 5.31%;
+        right: 5%;
+        top: 8.01%;
+        bottom: 91.33%;
+        text-align: left;
+        word-break: break-all;
+    }
+
+    .selection_dpdwn_1,.selection_dpdwn_2,.selection_dpdwn_3,
+    .selection_dpdwn_4, .selection_dpdwn_5{
+        width: 288px;
+        height: 40px;
+    }
+
+    .selection_dpdwn_1{
+        left: 5%;
+        right: 5%;
+        top: 27.76%;
+        bottom: 90.41%;
+    }
+
+    .selection_dpdwn_2{
+        left: 5%;
+        right: 5%;
+        top: 36.76%;
+        bottom: 90.41%;
+    }
+    .selection_dpdwn_3{
+        left: 5%;
+        right: 5%;
+        top: 45.76%;
+        bottom: 90.41%;
+    }
+    .selection_dpdwn_4{
+        left: 5%;
+        right: 5%;
+        top: 54.76%;
+        bottom: 90.41%;
+    }
+    .selection_dpdwn_5{
+        left: 5%;
+        right: 5%;
+        top: 63.76%;
+        bottom: 90.41%;
+    }
+
+    .selection_btn{
+        width: 288px;
+        height: 40px;
+        left: 5%;
+        right: 5%;
+        top: 73.18%;
+        bottom: 81.98%;
+    }
+
+    .selection_hr{
+        width: 288px;
+        left: 5%;
+        right: 5%;
+        top: 83.49%;
+        bottom: 81.48%;
+    }
+
+    /*Main*/
+    .main_container{
+        width: 288px;
+        gap: 32px;
+        margin: 0 0;
+    }
+
+    .main_container>div{
+        width: 288px;
+    }
+
+    .main_container>div>h2{
+        width: 288px;
+        height: 32px;
+
+        font-family: 'IBM Plex Sans',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        /* identical to box height, or 133% */
+
+        text-align: center;
+
+        color: #1A1E29;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    /*Popular*/
+
+    /*Cards*/
+    .cards{
+        width: 288px;
+        display: flex;
+        gap: 0;
+        margin: 0 auto;
+    }
+
+    .card_1{
+        width: 288px;
+    }
+
+    #c1_2{
+        display: none;
+    }
+
+    #c2_2{
+        display: none;
+    }
+
+    #c3_2{
+        display: none;
+    }
+
+    #c4_2{
+        display: none;
+    }
+
+    .card_1_tongue{
+        background: url("../src/svg/card_tongue_480.svg") center center no-repeat;
+    }
+
+    .card_3_tongue{
+        background: url("../src/svg/card_tongue_480.svg") center center no-repeat;
+    }
+
+    .c3t_text{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        /* identical to box height, or 114% */
+
+
+        color: #6A6A6A;
+    }
+
+    /*Footer*/
+    .footer_border{
+        width: 320px;
+        height: 97px;
+    }
+
+    .footer_logo{
+        left: 39.23%;
+        top: 8.22%;
+    }
+
+    .secret{
+        width: 320px;
+        height: 97px;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 78.3%;
+        background: url("../src/svg/Secret_480.svg") center center no-repeat;
+    }
+
+    .number{
+        left: 5.31%;
+        right: 5.31%;
+        top: 27.07%;
+        bottom: 65.77%;
+    }
+
+    .free_call{
+        left: 5.31%;
+        right: 5.31%;
+        top: 35.12%;
+        bottom: 61.3%;
+    }
+
+    .footer_btn{
+        left: 5.31%;
+        right: 5.31%;
+        top: 42.28%;
+        bottom: 48.77%;
+    }
+
+    .soc_txt{
+        left: 5%;
+        right: 5%;
+        top: 58.39%;
+        bottom: 38.03%;
+    }
+
+    .soc_container{
+        left: 28.75%;
+        right: 28.75%;
+        top: 60.55%;
+        bottom: 25.5%;
+    }
+
+    .ad_create{
+        left: 5%;
+        right: 5%;
+        top: 78.66%;
+        bottom: 14.77%;
+    }
+
+    .long_cat{
+        left: 28.44%;
+        right: 30.96%;
+        top: 78.81%;
+        bottom: 0;
     }
 }

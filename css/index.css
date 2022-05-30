@@ -707,6 +707,15 @@ footer{
     z-index: 1;
 }
 
+.secret{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 80.44%;
+
+    background-image: url("../src/svg/Secret.svg");
+}
+
 .footer_logo{
     width: 64px;
     height: 64px;
@@ -836,15 +845,20 @@ li{
     bottom: 43.75%;
 }
 
+.ad_text{
+    position: absolute;
+    left: 47.66%;
+    right: 5.47%;
+    top: 16.67%;
+    bottom: 58.33%;
+}
+
 .ad_text_1{
     font-family: 'IBM Plex Sans', sans-serif;
     position: absolute;
-    left: 47.42%;
-    right: 15.08%;
-    top: 15.19%;
-    bottom: 70.31%;
     width: 480px;
     height: 48px;
+    margin: 0;
 
     color: #FFFFFF;
     background-color: #ff7e00;
@@ -853,12 +867,10 @@ li{
 .ad_text_2{
     font-family: 'IBM Plex Sans', sans-serif;
     position: absolute;
-    left: 47.42%;
-    right: 36.17%;
-    top: 24.69%;
-    bottom: 57.81%;
     width: 210px;
     height: 48px;
+    top: 50%;
+    margin: 0;
 
     color: #FFFFFF;
     background: #FF7E00;
@@ -890,6 +902,7 @@ li{
     right: 26.49%;
     top: 7.96%;
     bottom: 76.12%;
+    margin: 0;
 
     font-family: 'IBM Plex Sans', sans-serif;
     font-style: normal;

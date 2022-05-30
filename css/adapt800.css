@@ -1,18 +1,27 @@
 @media (max-width: 800px) {
     /*Main settings*/
-    header{
-        width: 768px;
-    }
-
     body{
         width: 768px;
         height: 4956px;
         margin: 0 auto;
     }
 
+    header{
+        width: 768px;
+        background: url("../src/svg/header_800.svg") center center no-repeat;
+    }
+
+    main{
+        width: 600px;
+        margin: 0 auto;
+        left: 83px;
+        top: 689px;
+    }
+
     footer{
         width: 768px;
         height: 447px;
+        top: 88%;
     }
 
     /*Header*/
@@ -28,8 +37,31 @@
         display: none;
     }
 
+    .imn_1{
+        left: 67.86%;
+        right: 21.94%;
+        top: 0;
+        bottom: 16.67%;
+    }
+
     .imn_2{
         display: none;
+    }
+
+    .imn_3{
+        left: 78.06%;
+        right: 11.73%;
+        top: 0;
+        bottom: 16.67%;
+
+        background: url("../src/svg/personal.svg") center center no-repeat;
+    }
+
+    .logo{
+        left: 45.92%;
+        right: 45.92%;
+        top: 16.67%;
+        bottom: 16.67%;
     }
 
     /*Ad*/
@@ -44,12 +76,238 @@
         display: none;
     }
 
+    .ad_text{
+        left: 11.33%;
+        right: 10.55%;
+        top: 35.42%;
+        bottom: 39.58%;
+    }
+
+    .ad_btn{
+        left: 10.94%;
+        right: 73.05%;
+        top: 64.58%;
+        bottom: 25%;
+    }
+
     /*Selection*/
     .selection{
-        position: absolute;
         width: 768px;
         height: 297px;
         left: 0;
-        top: 400px;
+        top: 305px;
+
+        background-image: url("../src/svg/tb_800.svg");
+    }
+
+    .selection_text{
+        text-align: center;
+
+        width: 398px;
+        height: 64px;
+    }
+
+    .selection_dpdwn_1{
+        left: 10.94%;
+        right: 65.1%;
+        top: 35.02%;
+        bottom: 51.52%;
+    }
+
+    .selection_dpdwn_2{
+        left: 38.02%;
+        right: 38.02%;
+        top: 35.35%;
+        bottom: 51.18%;
+    }
+
+    .selection_dpdwn_3{
+        left: 65.1%;
+        right: 10.94%;
+        top: 35.35%;
+        bottom: 51.18%;
+    }
+
+    .selection_dpdwn_4{
+        left: 24.48%;
+        right: 51.56%;
+        top: 54.21%;
+        bottom: 32.32%;
+    }
+
+    .selection_dpdwn_5{
+        left: 51.56%;
+        right: 24.48%;
+        top: 54.21%;
+        bottom: 32.32%;
+    }
+
+    .selection_btn{
+        left: 34.9%;
+        right: 34.9%;
+        top: 75.76%;
+        bottom: 10.77%;
+    }
+
+    .selection_hr{
+        width: 600px;
+    }
+
+    /*Main*/
+    .main_container{
+        width: 600px;
+    }
+
+    /*Cards*/
+    .cards{
+        width: 600px;
+        z-index: 2;
+    }
+
+    .card_1{
+        z-index: 1;
+    }
+
+    #c2_3{
+        display: none;
+    }
+
+    #c2_4{
+        display: none;
+    }
+
+    #c3_3{
+        display: none;
+    }
+
+    #c3_4{
+        display: none;
+    }
+
+    #c4_3{
+        display: none;
+    }
+
+    /*Popular*/
+    .popular{
+        width: 600px;
+    }
+
+    .popular>h2{
+        width: 600px;
+    }
+
+    .popular>button{
+        width: 202px;
+    }
+
+    #c1_1{
+        z-index: 1;
+    }
+
+    #c1_2{
+        z-index: 1;
+    }
+
+    #c1_3{
+        display: none;
+    }
+
+    /*Wheels*/
+    .wheels{
+        width: 600px;
+    }
+
+    .wheels>h2{
+        width: 600px;
+    }
+
+    .popular>button{
+        width: 202px;
+    }
+
+    /*Disks*/
+    .disks{
+        width: 600px;
+    }
+
+    .disks>h2{
+        width: 600px;
+    }
+
+    .disks>button{
+        width: 202px;
+    }
+
+    /*Sales*/
+    .sales{
+        width: 600px;
+    }
+
+    .sales>h2{
+        width: 600px;
+    }
+
+    .sales>button{
+        width: 202px;
+    }
+
+    /*About*/
+    .about{
+        width: 600px;
+        height: 816px;
+
+        grid-template-columns: none;
+        grid-template-rows: 400px 392px;
+    }
+
+    /*Footer*/
+    .footer_logo{
+        left: 45.23%;
+        right: 44.27%;
+        top: 0.22%;
+        bottom: 78.3%;
+
+        padding-top: 4%;
+    }
+
+    .secret{
+        width: 768px;
+        height: 97px;
+
+        background: url("../src/svg/Secret_800.svg") center center no-repeat;
+    }
+
+    .soc_container{
+        left: 41.15%;
+        right: 41.15%;
+    }
+    .footer_btn{
+        width: 274px;
+        left: 32.16%;
+        right: 32.16%;
+    }
+
+    .long_cat{
+        left: 41.02%;
+        right: 42.07%;
+        top: 88.81%;
+        bottom: 0;
+    }
+
+    .l_1{
+        display: none;
+    }
+
+    .l_2{
+        display: none;
+    }
+
+    .l_3{
+        display: none;
+    }
+
+    .l_4{
+        display: none;
     }
 }
