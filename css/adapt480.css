@@ -7,7 +7,7 @@
 
     header{
         width: 320px;
-        background: url("../src/svg/header_480.svg") center center no-repeat;
+        background: url("../src/svg/header_280.svg") center center no-repeat;
     }
 
     main{
@@ -19,6 +19,7 @@
     footer{
         width: 320px;
         height: 447px;
+        top: 90%;
     }
 
     /*Header*/
@@ -58,7 +59,7 @@
         width: 320px;
         height: 312px;
         top: 68px;
-        background: url("../src/png/Ad_480.png") center center no-repeat;
+        background: url("../src/png/Ad_280.png") center center no-repeat;
     }
 
     .ad_text{
@@ -203,6 +204,94 @@
 
     /*Popular*/
 
+    /*About*/
+    .about{
+        grid-template-rows: 192px 464px;
+    }
+
+    .about_img{
+        background: url("../src/png/Rectangle 53_280.png") center center no-repeat;
+
+    }
+
+    .about_main{
+        width: 288px;
+        height: 464px;
+        grid-template-rows: 400px 40px;
+        gap: 24px;
+    }
+
+    .am_text{
+        grid-template-rows: 94px 168px;
+    }
+
+    .am_text>*{
+        width: 288px;
+        hyphens: auto;
+    }
+
+    .am_title{
+        width: 288px;
+        height: 96px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        /* or 133% */
+
+
+        color: #1A1E29;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .am_disc1{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+
+
+        color: #6A6A6A;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .am_disc2{
+        width: 288px;
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+
+
+        color: #6A6A6A;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
     /*Cards*/
     .cards{
         width: 288px;
@@ -232,11 +321,11 @@
     }
 
     .card_1_tongue{
-        background: url("../src/svg/card_tongue_480.svg") center center no-repeat;
+        background: url("../src/svg/card_tongue_280.svg") center center no-repeat;
     }
 
     .card_3_tongue{
-        background: url("../src/svg/card_tongue_480.svg") center center no-repeat;
+        background: url("../src/svg/card_tongue_280.svg") center center no-repeat;
     }
 
     .c3t_text{
@@ -269,7 +358,7 @@
         right: 0;
         top: 0;
         bottom: 78.3%;
-        background: url("../src/svg/Secret_480.svg") center center no-repeat;
+        background: url("../src/svg/Secret_280.svg") center center no-repeat;
     }
 
     .number{
@@ -319,5 +408,14 @@
         right: 30.96%;
         top: 78.81%;
         bottom: 0;
+    }
+
+    /*Dropdown*/
+    .dropdown{
+        background: url("../src/svg/list_280.svg") center center no-repeat;
+    }
+
+    .dropdown:disabled{
+        background: url("../src/svg/disable_280.svg") center center no-repeat;
     }
 }
