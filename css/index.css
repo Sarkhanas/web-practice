@@ -426,6 +426,24 @@ header{
     justify-content: center;
 }
 
+.menu{
+    display: none;
+
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+
+    width: 129px;
+    height: 80px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
 .drop_btn{
     display: flex;
     flex-direction: row;
@@ -1534,4 +1552,8 @@ li{
 
 
     color: #1A1E29;
+}
+
+.phone{
+    display: none;
 }

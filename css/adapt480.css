@@ -7,6 +7,7 @@
 
     header{
         width: 320px;
+        height: 56px;
         background: url("../src/svg/header_280.svg") center center no-repeat;
     }
 
@@ -37,7 +38,7 @@
 
         left: 45%;
         right: 45%;
-        top: 35.29%;
+        top: 27.29%;
         bottom: 28.57%;
 
         background: url("../src/svg/Logo.svg");
@@ -46,19 +47,20 @@
     .left_menu{
         left: 30%;
         right: 76.56%;
-        top: 6.57%;
+        top: -28.57%;
         bottom: 42.86%;
     }
 
     .imn_1,.imn_3{
         top: 22px;
+        bottom: 22.67%;
     }
 
     /*Ad*/
     .ad{
         width: 320px;
         height: 312px;
-        top: 68px;
+        top: 47px;
         background: url("../src/png/Ad_280.png") center center no-repeat;
     }
 
@@ -101,16 +103,23 @@
     .selection{
         width: 289px;
         height: 504px;
+        top: 311px;
     }
 
     .selection_text{
-        width: 235px;
+        width: 89px;
+        height: 150px;
         left: 5.31%;
         right: 5%;
-        top: 8.01%;
+        top: 3.01%;
         bottom: 91.33%;
         text-align: left;
         word-break: break-all;
+    }
+
+    .selection_text>p{
+        margin: 0;
+        top: 0%;
     }
 
     .selection_dpdwn_1,.selection_dpdwn_2,.selection_dpdwn_3,
@@ -166,6 +175,21 @@
         right: 5%;
         top: 83.49%;
         bottom: 81.48%;
+    }
+
+    .wheels_sel{
+        width: 288px;
+        height: 40px;
+        top: 19%;
+    }
+
+    .mark_sel{
+        width: 261px;
+        height: 40px;
+        top: 49%;
+        left: 29%;
+
+        background-size: 261px 40px;
     }
 
     /*Main*/
@@ -417,5 +441,15 @@
 
     .dropdown:disabled{
         background: url("../src/svg/disable_280.svg") center center no-repeat;
+    }
+
+    /*Phone & Desk*/
+    .phone{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .desk{
+        display: none;
     }
 }

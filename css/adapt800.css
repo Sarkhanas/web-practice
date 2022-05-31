@@ -29,12 +29,20 @@
         display: none;
     }
 
+    .component2{
+        display: none;
+    }
+
     .component3{
         display: none;
     }
 
     .component4{
         display: none;
+    }
+
+    .menu{
+        display: flex;
     }
 
     .imn_1{
