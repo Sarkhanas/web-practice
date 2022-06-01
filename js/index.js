@@ -1,11 +1,12 @@
-$(document).ready(function () {
+$(document).ready(function(){
+    //Скрыть PopUp при загрузке страницы
     PopUpHide();
 });
-
-function PopUpShow() {
-    $("#popup").show();
+//Функция отображения PopUp
+function PopUpShow(){
+    $("#popup1").show();
 }
-
-function PopUpHide() {
-    $("#popup").hidden(true);
+//Функция скрытия PopUp
+function PopUpHide(){
+    $("#popup1").hide();
 }

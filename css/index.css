@@ -1557,3 +1557,40 @@ li{
 .phone{
     display: none;
 }
+
+/PopUp/
+.b-popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0;
+    z-index: 666;
+}
+
+.b-popup-content{
+    width: 60%;
+    height: 70%;
+    position: fixed;
+    left: 20%;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.b-popup-content>*{
+    margin: 0 auto;
+}
+
+.popup_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.popup_body>{
+    width: 100%;
+    height: 16.67%;
+}
