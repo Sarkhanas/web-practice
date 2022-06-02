@@ -1722,3 +1722,32 @@ li{
         transform: translate(-50%, -75%) rotate(360deg);
     }
 }
+
+/*To up button*/
+div.scrollup {
+    width: 24px;
+    height: 32px;
+    position: fixed; /* фиксированная позиция */
+    background: url("../src/svg/down.svg") center center no-repeat;
+    right: 20px; /* расстояние от правого края */
+    bottom: 25px; /* расстояние от нижнего края */
+    padding: 4px 10px; /* отступы до содержимого блока */
+    font-size: 20px; /* размер шрифта (иконки) */
+    cursor: pointer; /* форма курсора */
+    display: none; /* не отображать элемент */
+    text-align: center; /*выравнивание содержимого элемента по центру */
+    transform: rotateX(180deg);
+    border-radius: 100%;
+    border: 2px #ff7e00 solid;
+}
+div.scrollup:hover {
+    border: #ff7e00 solid;
+    box-shadow: rgba(0,0,0,0.8) ;
+}
+
+/*drop_down*/
+.drop_menu{
+    display: grid;
+
+    background: #2b3143;
+}
