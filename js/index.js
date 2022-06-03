@@ -113,3 +113,29 @@ $(window).scroll(function() {
         $('.scrollup').fadeOut();
     }
 });
+
+//Drop menu animation
+/*
+let $dropMenu = $('.drop_menu')
+$(".compaing").on('click', function () {
+    $dropMenu.addClass('menu_anim');
+
+    if ($dropMenu.hasClass('menu_anim')){
+        $dropMenu.removeClass('menu_anim');
+    }
+});*/
+
+let btn = document.querySelector('.compaing');
+let dropMenu = document.querySelector('.drop_menu');
+
+btn.addEventListener("click", function () {
+    dropMenu.classList.add('menu_anim');
+    dropMenu.classList.add('active');
+});
+
+dropMenu.addEventListener("animationend", AnimationHandler, false);
+
+function AnimationHandler() {
+    dropMenu.classList.remove('menu_anim');
+    dropMenu.classList.remove('active');
+}

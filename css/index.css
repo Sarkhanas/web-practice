@@ -246,6 +246,10 @@ header{
     z-index: 404;
 }
 
+header>.header_bottom, header>.header_top{
+    z-index: 404;
+}
+
 .header_top{
     display: flex;
     flex-direction: row;
@@ -1747,7 +1751,65 @@ div.scrollup:hover {
 
 /*drop_down*/
 .drop_menu{
-    display: grid;
-
+    width: 1280px;
+    height: 368px;
+    padding-top: 6%;
+    opacity: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: row;
+    gap: 240px;
     background: #2b3143;
+    z-index: 403;
+}
+
+.drop_menu>div{
+    width: 492px;
+}
+
+.drop_menu>div>dl>dt{
+    display: flex;
+    align-items: flex-end;
+    width: 492px;
+    height: 48px;
+    border-bottom: 1px #3E465F solid;
+}
+
+.menu_list1>dl>dt>a, .menu_list2>dl>dt>a{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #FFFFFF;
+}
+
+.menu_anim{
+    animation: 3s dm_anim;
+}
+
+.menu_anim:hover{
+    animation-play-state: paused;
+}
+
+@keyframes dm_anim {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 100%;
+    }
+
+    75%{
+        opacity: 100%;
+    }
+}
+
+.active{
+    opacity: 100;
 }
