@@ -176,11 +176,7 @@
         z-index: 1;
     }
 
-    #c2_3{
-        display: none;
-    }
-
-    #c2_4{
+    .c2_hidden_800{
         display: none;
     }
 
