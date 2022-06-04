@@ -60,6 +60,7 @@ main{
     align-items: center;
     padding: 0;
     gap: 72px;
+    overflow: hidden;
 
     position: absolute;
     width: 1280px;
@@ -809,6 +810,7 @@ li{
     grid-template-rows: 544px 792px 720px 600px 400px;
     padding: 0;
     gap: 40px;
+    overflow: hidden;
 
     width: 1224px;
     height: 3216px;
@@ -1017,6 +1019,7 @@ li{
 .cards{
     flex: none;
     display: grid;
+    overflow: hidden;
 }
 
 /*Wheels*/
@@ -1669,7 +1672,6 @@ li{
 .a span {
     position: relative;
     color: #fff;
-    fot-size: 20px;
     font-family: 'IBM Plex Sans', sans-serif;
     letter-spacing: 8px;
     text-align: center;
@@ -1755,7 +1757,7 @@ div.scrollup:hover {
     height: 368px;
     padding-top: 6%;
     opacity: 0;
-    display: flex;
+    display: none;
     justify-content: space-evenly;
     align-content: center;
     flex-direction: row;
@@ -1799,17 +1801,21 @@ div.scrollup:hover {
 @keyframes dm_anim {
     from{
         opacity: 0;
+        display: flex;
     }
 
     to{
         opacity: 100%;
+        display: flex;
     }
 
     75%{
         opacity: 100%;
+        display: flex;
     }
 }
 
 .active{
     opacity: 100;
+    display: flex;
 }
