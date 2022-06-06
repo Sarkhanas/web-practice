@@ -314,4 +314,8 @@
     .l_4{
         display: none;
     }
+
+    #controls{
+        width: 608px;
+    }
 }

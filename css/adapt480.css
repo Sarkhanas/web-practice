@@ -451,4 +451,8 @@
     .desk{
         display: none;
     }
+
+    #controls{
+        width: 288px;
+    }
 }
